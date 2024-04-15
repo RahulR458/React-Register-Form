@@ -14,7 +14,7 @@ function App() {
             <h5>START FOR FREE</h5>
             <p>Create <br />your account</p>
           </div>
-          <form action="">
+          <form action="" autoComplete='off'>
             <div className='name-container'>
               <div className='first-name-container'>
                 <label htmlFor='first-name'>First Name:</label><br />
@@ -31,25 +31,25 @@ function App() {
             </div>
             <div className='gender-container'>
               <label htmlFor="gender">Gender:</label><br />
+              <div  className='radio-buttons'>
               <label htmlFor="male">Male</label>
-              <input type="radio" id="male" name="male" value="male" />
+              <input type="radio" className='male' id="male" name="gender" value="male" />
               <label htmlFor="female">Female</label>
               <input type="radio" id="female" name="gender" value="Female" /><br />
+              </div>
             </div>
             <div  className='languague-container'>
-              <label htmlFor="gender">Languague:</label><br />
+              <label htmlFor="gender">Country:</label><br />
               <select id="gender" name="gender">
                 <option value="">Select</option>
-                <option value="">Malayalam</option>
-                <option value="">English</option>
-                <option value="">Hindi</option>
+                <option value="">India</option>
               </select>
             </div>
             <button type='submit'>Create account</button>
           </form>
         </div>
         {/* <div className='video-container'> */}
-          <video className='video-container' src="/public/video.mp4" type="video/mp4" ></video>
+          <video loop autoPlay className='video-container' src="/public/video.mp4" type="video/mp4" ></video>
         {/* </div> */}
       </div>
     </>
