@@ -1,0 +1,125 @@
+.main-container{
+  background-color: rgba(10, 10, 10, 0.877);
+  width: 75%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+  padding: 7px;
+}
+
+.form-container{
+  /* background-color: aliceblue; */
+  height: 95%;
+  width:  33%;
+  border-radius: 10px
+}
+
+.video-container{
+  /* background-color: aquamarine; */
+  height: 95%;
+  width: 60%;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.form-title-container{
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 35%;
+  padding: 50px 15px;
+}
+
+.form-title-container h5{
+  padding-bottom: 15px;
+  color: rgb(73, 74, 74);
+}
+
+.form-title-container p{
+  padding-bottom: 5px;
+  font-size: 32px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.form-container form{
+  /* background-color: cadetblue; */
+  width: 100%;
+  height: 65%;
+  /* display: flex;
+  justify-content: center;
+  align-items: baseline;
+  flex-direction: column; */
+  padding-left: 18px;
+  font-size: larger;
+}
+
+.name-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-name-container, .last-name-container{
+  width: 48%;
+  background-color: rgb(48, 48, 48);
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+}
+
+.first-name-container label,  .last-name-container label, .email-container label, .gender-container  label, .languague-container label {
+  font-size: x-small;
+  color: #ffffff;
+}
+
+.first-name-container input, .last-name-container input, .email-container input{
+  width:  85%;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 48, 48);
+  font-size: 18x;
+}
+
+.first-name-container input:focus, .last-name-container input:focus, .email-container input:focus {
+  border-bottom: 1px solid blanchedalmond  ;
+}
+
+.email-container, .gender-container, .languague-container{
+  width: 100%;
+  background-color: rgb(48, 48, 48);
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  margin-top: 15px;
+}
+
+/* .gender-container input{
+  font-size: larger;
+} */
+
+.languague-container select{
+  width:  85%;
+  outline: none;
+  border: none;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(48, 48, 48);
+  font-size: 18x;
+  /* border-radius: 8px; */
+}
+
+.form-container form button{
+  width:  50%;
+  height: 15%;
+  background-color: rgb(254, 87, 4);
+  color: #ffffff;
+  margin-top: 25px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
