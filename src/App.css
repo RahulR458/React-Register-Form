@@ -14,7 +14,8 @@
   /* background-color: aliceblue; */
   height: 95%;
   width:  33%;
-  border-radius: 10px
+  border-radius: 10px;
+  padding: 0px 0px 55px;
 }
 
 .video-container{
@@ -28,12 +29,12 @@
 .form-title-container{
   /* background-color: blueviolet; */
   width: 100%;
-  height: 35%;
-  padding: 50px 15px;
+  height: 32%;
+  padding: 30px 15px;
 }
 
 .form-title-container h5{
-  padding-bottom: 15px;
+  padding-bottom: 12px;
   color: rgb(73, 74, 74);
 }
 
@@ -48,19 +49,21 @@
 .form-container form{
   /* background-color: cadetblue; */
   width: 100%;
-  height: 65%;
-  /* display: flex;
-  justify-content: center;
-  align-items: baseline;
-  flex-direction: column; */
+  height: 80%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
   padding-left: 18px;
   font-size: larger;
+  padding-top: 0px;
+  overflow: auto;
 }
 
 .name-container{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  margin: 0px 0px 0px;
 }
 
 .first-name-container, .last-name-container{
@@ -117,7 +120,7 @@
   height: 15%;
   background-color: rgb(254, 87, 4);
   color: #ffffff;
-  margin-top: 25px;
+  margin-top: 18px;
   border-radius: 50px;
   border: none;
   cursor: pointer;
@@ -136,3 +139,12 @@
   gap: 10px;
 }
 
+.danger{
+  color: red;
+  font-size: 12px;
+  margin: 5px 10px 0px;
+}
+
+.important{
+  color: red;
+}
